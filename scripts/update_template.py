@@ -1,4 +1,5 @@
 import re
+import os
 
 def update_template(template_path, output_path, values):
     # Read the template file
@@ -14,8 +15,8 @@ def update_template(template_path, output_path, values):
         file.write(template)
 
 # Define the paths to the template and output files
-template_path = '../templates/software-verification-plan.md'
-output_path = '../docs/updated_document.md'
+template_path = '/Users/kv56174/Documents/GitHub/tw-vv-automation-test/templates/software-verification-plan.md'
+output_path = '/Users/kv56174/Documents/GitHub/tw-vv-automation-test/docs/updated_document.md'
 
 # Define the values to replace in the template
 values = {
